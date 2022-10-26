@@ -3,7 +3,7 @@
 ## Quick Start
 Step 1.
 
-Install requirements for python. Run ```python -m pip install -r requirements.txt```.
+Install requirements for python. Run ```python -m pip install -r requirements.txt```
 
 Step 2. 
 
