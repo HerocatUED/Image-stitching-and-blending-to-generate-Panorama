@@ -7,7 +7,9 @@ Put your images in $./inputs/panoramas/NameOfPanorama$ folder, with which you wa
 
 Step 2. 
 
-Run ***OpenCV_panoramas.py*** under the root folder. The command should be  \
+Run ***OpenCV_panoramas.py*** under the root folder. 
+
+The command should be 
 ```python OpenCV_panoramas.py```
 
 You can find the output in $./output/panoramas$ folder.
