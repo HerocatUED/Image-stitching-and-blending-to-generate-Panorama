@@ -14,6 +14,6 @@ You can find the output in $./output/panoramas$ folder.
 
 This should work in most situations. But if this does not work right, you can try to run $panoramas\_ modes.py$. You can choose which technique to use in $panoramas\_ modes.py$. If you don't want to choose the techniques, it will use all technique and you can classify them by the suffix of file name.
 ## Further Learning
-This programm uses many techniques to gennerate panorama,including feature detctors $&$ descriptors such as Harris Corner, SIFT, SURF, AKAZE, ORB, BRISK, and blending skills such as alpha blending, multiband blending, poisson blending, pyramid blending.
+This programm uses many techniques to gennerate panorama,including feature detctors $\&$ descriptors such as Harris Corner, SIFT, SURF, AKAZE, ORB, BRISK, and blending skills such as alpha blending, multiband blending, poisson blending, pyramid blending.
 
 If you want to learn more about the technique, you can find details of implement in $report.pdf$ 
