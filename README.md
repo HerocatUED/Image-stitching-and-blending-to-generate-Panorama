@@ -16,7 +16,7 @@ Run ***OpenCV_panoramas.py***.
 The command should be 
 ```python OpenCV_panoramas.py```
 
-You can find the output in $./output/panoramas$ folder.
+You can find the output in $./output/panoramas$ folder. Or you can set the path as you like, just change codes in ***OpenCV_panoramas.py***.
 
 ***Note: you should run commands above under the root path of this project!***
 
