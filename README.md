@@ -3,7 +3,7 @@
 ## Quick Start
 Step 1. 
 
-Put your images in $./inputs/panoramas/name\_ of\_ your\_  pamorama$ folder, with which you want to generate panorama. 
+Put your images in $./inputs/panoramas/NameOfPanorama$ folder, with which you want to generate panorama. 
 
 Step 2. 
 
