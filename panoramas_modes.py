@@ -5,12 +5,12 @@ from blend import blend_modes
 
 
 def generate_panorama_modes(ordered_img_seq, mode_feature, mode_blend):
-    len = np.shape(ordered_img_seq)[0]
-    mid = int(len/2)
+    length = len(ordered_img_seq)
+    mid = int(length/2)
     i = mid-1
     j = mid+1
     principle_img = ordered_img_seq[mid]
-    while(j < len):
+    while(j < length):
         pixels1, pixels2 = feature_matching(
             ordered_img_seq[j], principle_img, mode_feature)
         homo_matrix, _ = cv2.findHomography(pixels1, pixels2,
@@ -52,8 +52,7 @@ def main():
         cv2.imwrite(
             f"outputs/panoramas/grail_{mode}.jpg", pano)
 
-    # alpha blending is what I use in main_project
-    modes_blend = ['multiband', 'poisson', 'pyramid']
+    modes_blend = ['alpha', 'multiband', 'poisson', 'pyramid']
     for mode in modes_blend:
         pano = generate_panorama_modes(img_list, 'SIFT', mode)
         cv2.imwrite(
