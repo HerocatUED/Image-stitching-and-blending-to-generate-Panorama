@@ -28,5 +28,4 @@ If you want to learn more about the technique, you can find details of implement
 
 ## Interesting Usage
 ***Kage Bunshin no Jutsu***：
-
 Try to generate panoramas in which the same person appears multiple times.
