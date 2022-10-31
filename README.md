@@ -25,3 +25,8 @@ This should work in most situations. But it has limitation with maximum visual a
 This programm uses many techniques to gennerate panorama, including feature detctors&descriptors such as Harris Corner, SIFT, SURF, AKAZE, ORB, BRISK, and blending skills such as alpha blending, multiband blending, poisson blending, pyramid blending.
 
 If you want to learn more about the technique, you can find details of implement in ***report.pdf***. 
+
+## Interesting Usage
+***Kage Bunshin no Jutsu***：
+
+Try to generate panoramas in which the same person appears multiple times.
